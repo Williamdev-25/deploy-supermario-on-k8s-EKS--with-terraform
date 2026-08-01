@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 1.10.0"
+}
+
 resource "aws_s3_bucket" "tf-state-bucket" {
   bucket = "mario-tfstate-975829620122"
 
